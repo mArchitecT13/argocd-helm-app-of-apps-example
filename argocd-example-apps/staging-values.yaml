@@ -10,17 +10,17 @@ default:
 
 applications:
   pdf-service:
-    enabled: true
-    enableAutoSync: true
+    enabled: false
+    enableAutoSync: false
 
   mailqueue:
-    enabled: true
-    enableAutoSync: true
+    enabled: false
+    enableAutoSync: false
 
   api-gateway:
-    enabled: true
-    enableAutoSync: true
+    enabled: false
+    enableAutoSync: false
 
   auth-service:
-    enabled: true
-    enableAutoSync: true
+    enabled: false
+    enableAutoSync: false
